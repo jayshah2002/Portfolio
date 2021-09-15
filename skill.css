@@ -1,0 +1,147 @@
+.body {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: wheat;
+}
+
+.skills {
+    background-color: wheat;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    box-shadow: 15px 15px palevioletred;
+    padding-left: 10px;
+}
+
+.skills:hover {
+    padding: 15px;
+    transition: 0.5s ease;
+}
+
+.skills .skills-content .column {
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .right {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.skills .skills-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .left p {
+    text-align: justify;
+}
+
+.skills .skills-content .left a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.skills .skills-content .left a:hover {
+    color: crimson;
+    background: none;
+}
+
+.skills .skills-content .right .bars {
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.skills .skills-content .right .line {
+    height: 8px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+.skills-content .right .html::before {
+    width: 85%;
+}
+
+.skills-content .right .css::before {
+    width: 75%;
+}
+
+.skills-content .right .C::before {
+    width: 90%;
+}
+
+.skills-content .right .php::before {
+    width: 50%;
+}
+
+.skills-content .right .mysql::before {
+    width: 50%;
+}
+
+.skills-content .right .creativity::before {
+    width: 85%;
+}
+
+.skills-content .right .coop::before {
+    width: 78%;
+}
+
+.right {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+.title {
+    font-size: 80px;
+    text-align: center;
+    background-color: cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    border: 10px ridge burlywood;
+}
+
+.container {
+    background-color: #660066;
+    position: absolute;
+    top: 682px;
+    width: 100%;
+    padding: 15px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}

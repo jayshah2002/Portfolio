@@ -1,0 +1,121 @@
+body {
+    background-image: url('star.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+* {
+    margin: 0px;
+}
+
+.nav {
+    background-color: #660066;
+}
+
+.nav ul {
+    overflow: auto;
+}
+
+.nav .jay {
+    font-size: 45px;
+    font-family: sans-serif;
+    color: cornsilk;
+    padding-left: 100px;
+}
+
+.content {
+    overflow: hidden;
+    position: relative;
+    margin: 150px 0px 200px 100px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: yellowgreen;
+    animation-name: exam;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+}
+
+.content img {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.content b {
+    color: teal;
+}
+
+.content b:hover {
+    border-radius: 12px;
+    color: whitesmoke;
+    font-size: 52px;
+    border: 2px none plum;
+    transition: 0.3s ease;
+}
+
+@keyframes exam {
+    0% {
+        margin-left: 50px;
+    }
+    25% {
+        margin-left: 150px;
+    }
+    50% {
+        margin-left: 250px;
+    }
+    75% {
+        margin-left: 100px;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}
+
+.nav li {
+    float: right;
+    list-style: none;
+    padding: 0px 13px 0px 13px;
+    margin: 20px 5px;
+    font-family: sans-serif;
+}
+
+.nav .jay:hover {
+    font-size: 50px;
+    transition: 0.5s ease;
+    color: ivory;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav li a {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: coral;
+}
+
+.nav li a:hover {
+    background-color: whitesmoke;
+    border-radius: 7px;
+    transition: 0.3s ease;
+}
+
+
+}
+.rightNav {
+    padding-right: 0px;
+    text-align: right;
+}
+h1 {
+    color: indianred;
+}
+.container {
+    background-color: #660066;
+    padding: 2px;
+    width: 100%;
+    margin-top: 6750px;
+    padding: 25px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+@media(max-width:) {}

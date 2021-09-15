@@ -1,0 +1,46 @@
+body {
+    background-color: #602040;
+}
+
+center h1 {
+    width: 1000px;
+}
+
+.feedback {
+    background-color: wheat;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    box-shadow: 15px 15px palevioletred;
+    padding-left: 10px;
+}
+
+table {
+    background-color: turquoise;
+    border-radius: 4px;
+    box-shadow: 5px 5px greenyellow;
+}
+
+.table {
+    margin: 20px;
+}
+
+.table1 {
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#send {
+    background-color: chocolate;
+    color: white;
+    font-size: 18px;
+}
+
+#send:hover {
+    font-size: 20px;
+    background-color: tomato;
+    transition: 0.4s ease;
+}
